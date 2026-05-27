@@ -28,9 +28,8 @@
 **Santiaguenias** is an Austrian commerce rooted in Latin American warmth and culture.
 The brand sells curated products online, bridging the authenticity of Santiago del Estero traditions with the quality expectations of the European market.
 
-- **Instagram:** [https://www.instagram.com/lassantiaguenias/](https://www.instagram.com/lassantiaguenias/)
 - **Location:** Austria
-- **Language:** Spanish (primary), German (secondary consideration)
+- **Language:** German (primary), English (secondary), Spanish (tertiary)
 - **Tone:** Warm, approachable, trustworthy, community-driven
 
 ### Design Philosophy
