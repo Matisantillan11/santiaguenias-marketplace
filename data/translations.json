@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": {
+      "de": "Startseite",
+      "en": "Home",
+      "es": "Inicio"
+    },
+    "products": {
+      "de": "Produkte",
+      "en": "Products",
+      "es": "Productos"
+    },
+    "cart": {
+      "de": "Warenkorb",
+      "en": "Cart",
+      "es": "Carrito"
+    },
+    "search_placeholder": {
+      "de": "Produkte suchen...",
+      "en": "Search products...",
+      "es": "Buscar productos..."
+    }
+  },
+  "home": {
+    "hero_title": {
+      "de": "Authentische Aromen aus Argentinien",
+      "en": "Authentic Flavors from Argentina",
+      "es": "Sabores Autenticos de Argentina"
+    },
+    "hero_subtitle": {
+      "de": "Entdecken Sie handverlesene Produkte aus Santiago del Estero, direkt zu Ihnen nach Osterreich.",
+      "en": "Discover hand-picked products from Santiago del Estero, delivered to your door in Austria.",
+      "es": "Descubri productos seleccionados de Santiago del Estero, directo a tu puerta en Austria."
+    },
+    "hero_cta": {
+      "de": "Jetzt entdecken",
+      "en": "Shop Now",
+      "es": "Comprar Ahora"
+    },
+    "featured_categories": {
+      "de": "Beliebte Kategorien",
+      "en": "Featured Categories",
+      "es": "Categorias Destacadas"
+    },
+    "featured_products": {
+      "de": "Empfohlene Produkte",
+      "en": "Featured Products",
+      "es": "Productos Destacados"
+    },
+    "view_all": {
+      "de": "Alle ansehen",
+      "en": "View All",
+      "es": "Ver Todos"
+    },
+    "trust_title": {
+      "de": "Warum Santiaguenias?",
+      "en": "Why Santiaguenias?",
+      "es": "Por que Santiaguenias?"
+    },
+    "trust_authentic_title": {
+      "de": "100% Authentisch",
+      "en": "100% Authentic",
+      "es": "100% Autentico"
+    },
+    "trust_authentic_desc": {
+      "de": "Alle Produkte werden direkt aus Santiago del Estero bezogen.",
+      "en": "All products are sourced directly from Santiago del Estero.",
+      "es": "Todos los productos provienen directamente de Santiago del Estero."
+    },
+    "trust_shipping_title": {
+      "de": "Schneller Versand",
+      "en": "Fast Shipping",
+      "es": "Envio Rapido"
+    },
+    "trust_shipping_desc": {
+      "de": "Lieferung in ganz Osterreich innerhalb von 3-5 Werktagen.",
+      "en": "Delivery across Austria within 3-5 business days.",
+      "es": "Entrega en toda Austria en 3-5 dias habiles."
+    },
+    "trust_quality_title": {
+      "de": "Qualitatsgarantie",
+      "en": "Quality Guarantee",
+      "es": "Garantia de Calidad"
+    },
+    "trust_quality_desc": {
+      "de": "Jedes Produkt wird sorgfaltig ausgewahlt und gepruft.",
+      "en": "Every product is carefully selected and inspected.",
+      "es": "Cada producto es cuidadosamente seleccionado e inspeccionado."
+    },
+    "trust_community_title": {
+      "de": "Gemeinschaft",
+      "en": "Community",
+      "es": "Comunidad"
+    },
+    "trust_community_desc": {
+      "de": "Wir unterstutzen lokale Produzenten und Handwerker.",
+      "en": "We support local producers and artisans.",
+      "es": "Apoyamos a productores y artesanos locales."
+    }
+  },
+  "products": {
+    "title": {
+      "de": "Alle Produkte",
+      "en": "All Products",
+      "es": "Todos los Productos"
+    },
+    "filter_category": {
+      "de": "Kategorie",
+      "en": "Category",
+      "es": "Categoria"
+    },
+    "filter_price": {
+      "de": "Preis",
+      "en": "Price",
+      "es": "Precio"
+    },
+    "filter_all": {
+      "de": "Alle",
+      "en": "All",
+      "es": "Todas"
+    },
+    "sort_by": {
+      "de": "Sortieren nach",
+      "en": "Sort by",
+      "es": "Ordenar por"
+    },
+    "sort_price_asc": {
+      "de": "Preis: Niedrig zu Hoch",
+      "en": "Price: Low to High",
+      "es": "Precio: Menor a Mayor"
+    },
+    "sort_price_desc": {
+      "de": "Preis: Hoch zu Niedrig",
+      "en": "Price: High to Low",
+      "es": "Precio: Mayor a Menor"
+    },
+    "sort_name": {
+      "de": "Name",
+      "en": "Name",
+      "es": "Nombre"
+    },
+    "add_to_cart": {
+      "de": "In den Warenkorb",
+      "en": "Add to Cart",
+      "es": "Agregar al Carrito"
+    },
+    "in_stock": {
+      "de": "Auf Lager",
+      "en": "In Stock",
+      "es": "En Stock"
+    },
+    "low_stock": {
+      "de": "Wenig auf Lager",
+      "en": "Low Stock",
+      "es": "Pocas Unidades"
+    },
+    "out_of_stock": {
+      "de": "Nicht verfugbar",
+      "en": "Out of Stock",
+      "es": "Sin Stock"
+    },
+    "related": {
+      "de": "Ahnliche Produkte",
+      "en": "Related Products",
+      "es": "Productos Relacionados"
+    },
+    "results": {
+      "de": "Ergebnisse",
+      "en": "results",
+      "es": "resultados"
+    },
+    "no_results": {
+      "de": "Keine Produkte gefunden",
+      "en": "No products found",
+      "es": "No se encontraron productos"
+    },
+    "no_results_hint": {
+      "de": "Versuchen Sie, Ihre Filter oder Suchbegriffe anzupassen",
+      "en": "Try adjusting your filters or search terms",
+      "es": "Intenta ajustar tus filtros o terminos de busqueda"
+    },
+    "clear_search": {
+      "de": "Suche zurucksetzen",
+      "en": "Clear search",
+      "es": "Limpiar busqueda"
+    }
+  },
+  "cart": {
+    "title": {
+      "de": "Warenkorb",
+      "en": "Shopping Cart",
+      "es": "Carrito de Compras"
+    },
+    "empty": {
+      "de": "Ihr Warenkorb ist leer",
+      "en": "Your cart is empty",
+      "es": "Tu carrito esta vacio"
+    },
+    "empty_cta": {
+      "de": "Weiter einkaufen",
+      "en": "Continue Shopping",
+      "es": "Seguir Comprando"
+    },
+    "subtotal": {
+      "de": "Zwischensumme",
+      "en": "Subtotal",
+      "es": "Subtotal"
+    },
+    "shipping": {
+      "de": "Versand",
+      "en": "Shipping",
+      "es": "Envio"
+    },
+    "total": {
+      "de": "Gesamt",
+      "en": "Total",
+      "es": "Total"
+    },
+    "checkout": {
+      "de": "Zur Kasse",
+      "en": "Checkout",
+      "es": "Finalizar Compra"
+    },
+    "remove": {
+      "de": "Entfernen",
+      "en": "Remove",
+      "es": "Eliminar"
+    },
+    "free_shipping": {
+      "de": "Kostenlos",
+      "en": "Free",
+      "es": "Gratis"
+    },
+    "items": {
+      "de": "Artikel",
+      "en": "items",
+      "es": "articulos"
+    }
+  },
+  "common": {
+    "currency": "EUR",
+    "back": {
+      "de": "Zuruck",
+      "en": "Back",
+      "es": "Volver"
+    }
+  }
+}

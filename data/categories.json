@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cat-1",
+    "name": {
+      "de": "Lebensmittel",
+      "en": "Food & Groceries",
+      "es": "Alimentos"
+    },
+    "icon": "UtensilsCrossed",
+    "slug": "food-groceries"
+  },
+  {
+    "id": "cat-2",
+    "name": {
+      "de": "Getranke",
+      "en": "Beverages",
+      "es": "Bebidas"
+    },
+    "icon": "Wine",
+    "slug": "beverages"
+  },
+  {
+    "id": "cat-3",
+    "name": {
+      "de": "Gewurze & Krauter",
+      "en": "Spices & Herbs",
+      "es": "Especias y Hierbas"
+    },
+    "icon": "Leaf",
+    "slug": "spices-herbs"
+  },
+  {
+    "id": "cat-4",
+    "name": {
+      "de": "Sussigkeiten",
+      "en": "Sweets & Desserts",
+      "es": "Dulces y Postres"
+    },
+    "icon": "Candy",
+    "slug": "sweets-desserts"
+  },
+  {
+    "id": "cat-5",
+    "name": {
+      "de": "Handwerk",
+      "en": "Handcrafts",
+      "es": "Artesanias"
+    },
+    "icon": "Paintbrush",
+    "slug": "handcrafts"
+  },
+  {
+    "id": "cat-6",
+    "name": {
+      "de": "Geschenke",
+      "en": "Gift Boxes",
+      "es": "Cajas de Regalo"
+    },
+    "icon": "Gift",
+    "slug": "gift-boxes"
+  }
+]

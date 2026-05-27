@@ -1,0 +1,254 @@
+[
+  {
+    "id": "prod-1",
+    "name": {
+      "de": "Dulce de Leche Artesanal",
+      "en": "Artisanal Dulce de Leche",
+      "es": "Dulce de Leche Artesanal"
+    },
+    "description": {
+      "de": "Traditionell hergestelltes Dulce de Leche aus frischer Milch, nach einem Familienrezept aus Santiago del Estero. Cremig, reichhaltig und perfekt fur Desserts.",
+      "en": "Traditionally made dulce de leche from fresh milk, following a family recipe from Santiago del Estero. Creamy, rich, and perfect for desserts.",
+      "es": "Dulce de leche elaborado de forma artesanal con leche fresca, siguiendo una receta familiar de Santiago del Estero. Cremoso, rico y perfecto para postres."
+    },
+    "price": 8.90,
+    "category": "cat-1",
+    "images": [
+      "https://picsum.photos/seed/dulce1/800/800",
+      "https://picsum.photos/seed/dulce2/800/800"
+    ],
+    "stock": 25,
+    "featured": true
+  },
+  {
+    "id": "prod-2",
+    "name": {
+      "de": "Yerba Mate Premium",
+      "en": "Premium Yerba Mate",
+      "es": "Yerba Mate Premium"
+    },
+    "description": {
+      "de": "Hochwertige Yerba Mate aus dem Norden Argentiniens. Kraftig im Geschmack mit ausgewogener Bitterkeit. 500g Packung.",
+      "en": "High-quality yerba mate from northern Argentina. Strong in flavor with balanced bitterness. 500g pack.",
+      "es": "Yerba mate de alta calidad del norte argentino. Sabor fuerte con amargor equilibrado. Paquete de 500g."
+    },
+    "price": 12.50,
+    "category": "cat-2",
+    "images": [
+      "https://picsum.photos/seed/mate1/800/800",
+      "https://picsum.photos/seed/mate2/800/800"
+    ],
+    "stock": 40,
+    "featured": true
+  },
+  {
+    "id": "prod-3",
+    "name": {
+      "de": "Chimichurri Gewurzmischung",
+      "en": "Chimichurri Spice Mix",
+      "es": "Mezcla de Chimichurri"
+    },
+    "description": {
+      "de": "Authentische Chimichurri-Gewurzmischung mit Oregano, Petersilie, Knoblauch und Chili. Perfekt fur Grillgerichte.",
+      "en": "Authentic chimichurri spice mix with oregano, parsley, garlic, and chili. Perfect for grilled dishes.",
+      "es": "Mezcla autentica de chimichurri con oregano, perejil, ajo y aji. Perfecto para platos a la parrilla."
+    },
+    "price": 5.90,
+    "category": "cat-3",
+    "images": [
+      "https://picsum.photos/seed/chimi1/800/800",
+      "https://picsum.photos/seed/chimi2/800/800"
+    ],
+    "stock": 60,
+    "featured": true
+  },
+  {
+    "id": "prod-4",
+    "name": {
+      "de": "Alfajores de Maicena",
+      "en": "Cornstarch Alfajores",
+      "es": "Alfajores de Maicena"
+    },
+    "description": {
+      "de": "Zarte Alfajores aus Maisstarke, gefullt mit Dulce de Leche und bestaubt mit Puderzucker. 6er Packung.",
+      "en": "Delicate cornstarch alfajores filled with dulce de leche and dusted with powdered sugar. Pack of 6.",
+      "es": "Delicados alfajores de maicena rellenos de dulce de leche y espolvoreados con azucar impalpable. Caja de 6."
+    },
+    "price": 14.90,
+    "category": "cat-4",
+    "images": [
+      "https://picsum.photos/seed/alfajor1/800/800",
+      "https://picsum.photos/seed/alfajor2/800/800"
+    ],
+    "stock": 30,
+    "featured": true
+  },
+  {
+    "id": "prod-5",
+    "name": {
+      "de": "Handgewebter Poncho",
+      "en": "Hand-Woven Poncho",
+      "es": "Poncho Tejido a Mano"
+    },
+    "description": {
+      "de": "Traditioneller handgewebter Poncho aus Santiago del Estero. Hergestellt von lokalen Kunsthandwerkern mit naturgefarbter Wolle.",
+      "en": "Traditional hand-woven poncho from Santiago del Estero. Made by local artisans with naturally dyed wool.",
+      "es": "Poncho tradicional tejido a mano de Santiago del Estero. Hecho por artesanos locales con lana tenida naturalmente."
+    },
+    "price": 89.00,
+    "category": "cat-5",
+    "images": [
+      "https://picsum.photos/seed/poncho1/800/800",
+      "https://picsum.photos/seed/poncho2/800/800"
+    ],
+    "stock": 5,
+    "featured": true
+  },
+  {
+    "id": "prod-6",
+    "name": {
+      "de": "Argentinische Geschenkbox",
+      "en": "Argentine Gift Box",
+      "es": "Caja de Regalo Argentina"
+    },
+    "description": {
+      "de": "Kuratierte Geschenkbox mit Dulce de Leche, Yerba Mate, Alfajores und Chimichurri. Perfekt als Geschenk.",
+      "en": "Curated gift box with dulce de leche, yerba mate, alfajores, and chimichurri. The perfect gift.",
+      "es": "Caja de regalo curada con dulce de leche, yerba mate, alfajores y chimichurri. El regalo perfecto."
+    },
+    "price": 39.90,
+    "category": "cat-6",
+    "images": [
+      "https://picsum.photos/seed/giftbox1/800/800",
+      "https://picsum.photos/seed/giftbox2/800/800"
+    ],
+    "stock": 15,
+    "featured": true
+  },
+  {
+    "id": "prod-7",
+    "name": {
+      "de": "Empanada-Teigscheiben",
+      "en": "Empanada Dough Discs",
+      "es": "Tapas de Empanada"
+    },
+    "description": {
+      "de": "Fertige Empanada-Teigscheiben fur Ofen oder Friteuse. 12 Stuck pro Packung.",
+      "en": "Ready-made empanada dough discs for oven or frying. 12 pieces per pack.",
+      "es": "Tapas de empanada listas para horno o fritura. 12 unidades por paquete."
+    },
+    "price": 6.50,
+    "category": "cat-1",
+    "images": [
+      "https://picsum.photos/seed/empanada1/800/800",
+      "https://picsum.photos/seed/empanada2/800/800"
+    ],
+    "stock": 20,
+    "featured": false
+  },
+  {
+    "id": "prod-8",
+    "name": {
+      "de": "Malbec Rotwein Reserve",
+      "en": "Malbec Red Wine Reserve",
+      "es": "Vino Tinto Malbec Reserva"
+    },
+    "description": {
+      "de": "Exquisiter Malbec Reserve aus Mendoza. Vollmundig mit Noten von dunklen Fruchten und Vanille. 750ml.",
+      "en": "Exquisite Malbec Reserve from Mendoza. Full-bodied with notes of dark fruits and vanilla. 750ml.",
+      "es": "Exquisito Malbec Reserva de Mendoza. De cuerpo completo con notas de frutas oscuras y vainilla. 750ml."
+    },
+    "price": 24.90,
+    "category": "cat-2",
+    "images": [
+      "https://picsum.photos/seed/malbec1/800/800",
+      "https://picsum.photos/seed/malbec2/800/800"
+    ],
+    "stock": 12,
+    "featured": false
+  },
+  {
+    "id": "prod-9",
+    "name": {
+      "de": "Merken Rauchpaprika",
+      "en": "Merken Smoked Paprika",
+      "es": "Merken Paprika Ahumada"
+    },
+    "description": {
+      "de": "Rauchige Paprika im Mapuche-Stil. Verleiht jedem Gericht eine einzigartige rauchige Note. 100g Glas.",
+      "en": "Mapuche-style smoked paprika. Adds a unique smoky touch to any dish. 100g jar.",
+      "es": "Paprika ahumada estilo mapuche. Agrega un toque ahumado unico a cualquier plato. Frasco de 100g."
+    },
+    "price": 7.50,
+    "category": "cat-3",
+    "images": [
+      "https://picsum.photos/seed/merken1/800/800",
+      "https://picsum.photos/seed/merken2/800/800"
+    ],
+    "stock": 35,
+    "featured": false
+  },
+  {
+    "id": "prod-10",
+    "name": {
+      "de": "Havanna Schokoladen-Alfajores",
+      "en": "Havanna Chocolate Alfajores",
+      "es": "Alfajores Havanna de Chocolate"
+    },
+    "description": {
+      "de": "Premium Schokoladen-Alfajores von Havanna. Dunkle Schokolade mit Dulce de Leche Fullung. 6er Box.",
+      "en": "Premium chocolate alfajores by Havanna. Dark chocolate with dulce de leche filling. Box of 6.",
+      "es": "Alfajores premium de chocolate de Havanna. Chocolate oscuro con relleno de dulce de leche. Caja de 6."
+    },
+    "price": 18.90,
+    "category": "cat-4",
+    "images": [
+      "https://picsum.photos/seed/havanna1/800/800",
+      "https://picsum.photos/seed/havanna2/800/800"
+    ],
+    "stock": 22,
+    "featured": false
+  },
+  {
+    "id": "prod-11",
+    "name": {
+      "de": "Keramik Mate-Becher",
+      "en": "Ceramic Mate Cup",
+      "es": "Mate de Ceramica"
+    },
+    "description": {
+      "de": "Handbemalter Keramik-Mate-Becher mit traditionellen Motiven. Inkl. Bombilla (Trinkhalm).",
+      "en": "Hand-painted ceramic mate cup with traditional motifs. Includes bombilla (metal straw).",
+      "es": "Mate de ceramica pintado a mano con motivos tradicionales. Incluye bombilla."
+    },
+    "price": 32.00,
+    "category": "cat-5",
+    "images": [
+      "https://picsum.photos/seed/matebecher1/800/800",
+      "https://picsum.photos/seed/matebecher2/800/800"
+    ],
+    "stock": 8,
+    "featured": false
+  },
+  {
+    "id": "prod-12",
+    "name": {
+      "de": "Mate-Liebhaber Geschenkset",
+      "en": "Mate Lover Gift Set",
+      "es": "Set de Regalo para Materos"
+    },
+    "description": {
+      "de": "Komplettes Mate-Set: Keramik-Mate, Bombilla, Yerba Mate Premium und Thermosflasche. In eleganter Geschenkbox.",
+      "en": "Complete mate set: ceramic mate cup, bombilla, premium yerba mate, and thermos. In elegant gift box.",
+      "es": "Set completo de mate: mate de ceramica, bombilla, yerba mate premium y termo. En elegante caja de regalo."
+    },
+    "price": 59.90,
+    "category": "cat-6",
+    "images": [
+      "https://picsum.photos/seed/mateset1/800/800",
+      "https://picsum.photos/seed/mateset2/800/800"
+    ],
+    "stock": 10,
+    "featured": false
+  }
+]

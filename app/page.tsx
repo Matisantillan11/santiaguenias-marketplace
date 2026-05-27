@@ -1,65 +1,113 @@
-import Image from "next/image";
+"use client";
 
-export default function Home() {
+import Link from "next/link";
+import { ArrowRight, ShieldCheck, Truck, Star, Users } from "lucide-react";
+import { useI18n } from "@/lib/i18n";
+import { HeroBanner } from "@/components/marketplace/HeroBanner";
+import { CategoryCard } from "@/components/marketplace/CategoryCard";
+import { ProductGrid } from "@/components/marketplace/ProductGrid";
+import { AnimatedSection } from "@/components/marketplace/AnimatedSection";
+import { Button } from "@/components/ui/button";
+import categories from "@/data/categories.json";
+import products from "@/data/products.json";
+
+const featuredProducts = products.filter((p) => p.featured);
+
+const TRUST_ICONS = [ShieldCheck, Truck, Star, Users] as const;
+
+export default function HomePage() {
+  const { t } = useI18n();
+
+  const trustItems = [
+    {
+      icon: TRUST_ICONS[0],
+      title: t("home.trust_authentic_title"),
+      desc: t("home.trust_authentic_desc"),
+    },
+    {
+      icon: TRUST_ICONS[1],
+      title: t("home.trust_shipping_title"),
+      desc: t("home.trust_shipping_desc"),
+    },
+    {
+      icon: TRUST_ICONS[2],
+      title: t("home.trust_quality_title"),
+      desc: t("home.trust_quality_desc"),
+    },
+    {
+      icon: TRUST_ICONS[3],
+      title: t("home.trust_community_title"),
+      desc: t("home.trust_community_desc"),
+    },
+  ];
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div>
+      {/* Hero */}
+      <AnimatedSection>
+        <HeroBanner />
+      </AnimatedSection>
+
+      {/* Featured Categories */}
+      <AnimatedSection as="section" className="mx-auto max-w-[1280px] px-4 py-12 md:px-8 md:py-16">
+        <div className="mb-8 flex items-center justify-between">
+          <h2 className="text-xl font-semibold text-neutral-800 md:text-2xl">
+            {t("home.featured_categories")}
+          </h2>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+        <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-6 md:gap-4">
+          {categories.map((category, idx) => (
+            <AnimatedSection key={category.id} delay={idx * 75}>
+              <CategoryCard category={category} />
+            </AnimatedSection>
+          ))}
         </div>
-      </main>
+      </AnimatedSection>
+
+      {/* Featured Products */}
+      <AnimatedSection as="section" className="bg-neutral-50">
+        <div className="mx-auto max-w-[1280px] px-4 py-12 md:px-8 md:py-16">
+          <div className="mb-8 flex items-center justify-between">
+            <h2 className="text-xl font-semibold text-neutral-800 md:text-2xl">
+              {t("home.featured_products")}
+            </h2>
+            <Link href="/products">
+              <Button variant="ghost" className="gap-1 text-primary-500 hover:text-primary-600">
+                {t("home.view_all")}
+                <ArrowRight className="size-4" />
+              </Button>
+            </Link>
+          </div>
+          <ProductGrid products={featuredProducts} />
+        </div>
+      </AnimatedSection>
+
+      {/* Trust/Value Props */}
+      <AnimatedSection as="section" className="mx-auto max-w-[1280px] px-4 py-12 md:px-8 md:py-16">
+        <h2 className="mb-10 text-center text-xl font-semibold text-neutral-800 md:text-2xl">
+          {t("home.trust_title")}
+        </h2>
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {trustItems.map((item, idx) => {
+            const Icon = item.icon;
+            return (
+              <AnimatedSection key={idx} delay={idx * 100}>
+                <div className="flex flex-col items-center gap-3 rounded-lg border border-neutral-200 bg-white p-6 text-center shadow-[0_1px_2px_rgba(0,0,0,0.05)]">
+                  <div className="flex size-12 items-center justify-center rounded-full bg-primary-50 text-primary-400">
+                    <Icon className="size-6" />
+                  </div>
+                  <h3 className="text-sm font-semibold text-neutral-800">
+                    {item.title}
+                  </h3>
+                  <p className="text-xs leading-relaxed text-neutral-500">
+                    {item.desc}
+                  </p>
+                </div>
+              </AnimatedSection>
+            );
+          })}
+        </div>
+      </AnimatedSection>
     </div>
   );
 }
